@@ -1,6 +1,11 @@
 # BetterBroadcast-qurre
 Plugin for SCP:SL
 
+Allows you to customize the broadcast. Shows the broadcast when:
+- Player enters<br>
+- Round begins<br>
+- The round ends
+
 ### Config Settings
 Type | Config Value | Default Setting | Description
 ---- | ------------ | --------------- | ------------

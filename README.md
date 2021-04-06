@@ -3,8 +3,8 @@ Plugin for SCP:SL
 
 Config Value | Default Setting | Description
 
-bb_ply_join_msg_on | true | Enable Player Join Text [Bool]
-bb_ply_join_text | Welcome to my server!| Broadcast message when player joined [String]
+bb_ply_join_msg_on | true | Enable Player Join Text [Bool]\n
+bb_ply_join_text | Welcome to my server!| Broadcast message when player joined [String]\n
 bb_ply_join_msg_dur | Duration of the message for the player [Seconds]
 
 bb_start_round_msg_on | true | Enable Message After Round Started [Bool]

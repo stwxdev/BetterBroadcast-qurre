@@ -5,6 +5,7 @@ Allows you to customize the broadcast. Shows the broadcast when:
 - The player enters the server<br>
 - Round begins<br>
 - The round ends
+- Shows messages during a round
 
 ### Config Settings
 Type | Config Value | Default Setting | Description

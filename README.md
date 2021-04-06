@@ -2,7 +2,7 @@
 Plugin for SCP:SL
 
 Allows you to customize the broadcast. Shows the broadcast when:
-- Player enters<br>
+- The player enters the server<br>
 - Round begins<br>
 - The round ends
 

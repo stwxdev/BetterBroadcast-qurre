@@ -1,7 +1,7 @@
 # BetterBroadcast-qurre
 Plugin for SCP:SL
 
-Type | Default Setting | Description
+Type | Config Value | Default Setting | Description
 ---- | ------------ | --------------- | ------------
 Bool | bb_ply_join_msg_on | `true` | Enable Player Join Text
 String | bb_ply_join_text | Welcome to my server!| Broadcast message when player joined

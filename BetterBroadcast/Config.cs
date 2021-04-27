@@ -2,9 +2,12 @@
 {
     public static class Config
     {
+        //Plugin Settings
+        public static bool EnablePlugin = Qurre.Plugin.Config.GetBool("bb_enable", true);
+
         //Player Join Message
         public static bool EnablePlayerJoinMessage = Qurre.Plugin.Config.GetBool("bb_ply_join_msg_on", true);
-        public static string PlayerJoinMessageText = Qurre.Plugin.Config.GetString("bb_ply_join_text", "<color=yellow>Welcome to my server!</color>");
+        public static string PlayerJoinMessageText = Qurre.Plugin.Config.GetString("bb_ply_join_text", "<color=yellow>Welcome to my server <color=red>%player%</color>!</color>");
         public static int PlayerJoinMessageDuration = Qurre.Plugin.Config.GetInt("bb_ply_join_msg_dur", 10);
 
         //Start Round Message
@@ -22,5 +25,10 @@
         public static string RoundMessageText = Qurre.Plugin.Config.GetString("bb_round_text", "<color=green>DISCORD: discord.gg/</color>");
         public static int RoundMessageDuration = Qurre.Plugin.Config.GetInt("bb_round_dur", 10);
         public static float RoundMessageInterval = Qurre.Plugin.Config.GetFloat("bb_round_msg_interval", 100);
+
+        //Player Die Message
+        public static bool EnablePlayerDieMessage = Qurre.Plugin.Config.GetBool("bb_player_die_msg_on", true);
+        public static string PlayerDieText = Qurre.Plugin.Config.GetString("bb_player_die_text", "You were killed by player <color=red>%killer%</color>");
+        public static int PlayerDieMessageDuration = Qurre.Plugin.Config.GetInt("bb_player_die_msg_dur", 4);
     }
 }

@@ -34,7 +34,8 @@
     <Reference Include="0Harmony">
       <HintPath>..\references_qurre\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp">
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\references_qurre\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
@@ -46,7 +47,8 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\references_qurre\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Qurre">
+    <Reference Include="Qurre, Version=1.2.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\references_qurre\Qurre.dll</HintPath>
     </Reference>
     <Reference Include="System" />

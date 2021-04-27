@@ -9,7 +9,7 @@ Allows you to customize the broadcast.
 Type | Config Value | Default Setting | Description
 ---- | ------------ | --------------- | ------------
 Bool | bb_ply_join_msg_on | `true` | Enable Player Join Text
-String | bb_ply_join_text | Welcome to my server!| Broadcast message when player joined
+String | bb_ply_join_text | Welcome to my server %player%!| Broadcast message when player joined
 Seconds | bb_ply_join_msg_dur | 10 | Duration of the message for the player
 Bool | bb_start_round_msg_on | `true` | Enable Message After Round Started
 String | bb_start_round_text | Good luck! | Broadcast message after round started
@@ -21,3 +21,6 @@ Bool | bb_round_msg_on | `true` | Enable messages during a round
 String | bb_round_text | DISCORD: discord.gg/ | Broadcast message during round
 Seconds | bb_round_dur | 10 | Duration of the message during round
 Seconds | bb_round_msg_interval | 100 | The interval between broadcasts
+Bool | bb_player_die_msg_on | `true` | Enable message when player die
+String | bb_player_die_text | You were killed by player %killer% | Broadcast Message to Player
+Seconds | bb_player_die_msg_dur | 4 | Duration of the message
